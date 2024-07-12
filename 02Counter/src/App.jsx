@@ -13,10 +13,12 @@ function App() {
   return (
     <>
     
-      <h1>Shubham Patil aa| Counter Project</h1>
+      <h1>Shubham Patil | Counter Project</h1>
       <h2>Counter Value: {counter}</h2>
       <button onClick={()=>{
-        setCounter(counter+1)}}>Add Value</button>
+        setCounter(counter+1)
+        
+        }}>Add Value</button>
       <button onClick={()=>{
         if(counter>0) setCounter(counter-1)}} >Remove Value</button>
     </>
